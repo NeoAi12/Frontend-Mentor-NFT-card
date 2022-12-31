@@ -76,7 +76,7 @@ hr {
     vertical-align: -1px;
 }
 .bottom {
-    color:hsla(178, 100%, 50%, 0.5);
+    color:hsl(178, 100%, 50%);
 }
 .side {
     position: relative;

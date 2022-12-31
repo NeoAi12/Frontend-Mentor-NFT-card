@@ -1,0 +1,118 @@
+/************************************* Tag Selectors *****************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+h2 {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    margin: 20px;
+    font-weight: 600;
+}
+h2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;   
+}
+p {
+    margin: 10px 20px;
+    color: hsl(215, 51%, 70%);
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+hr {
+    width: 270px;
+    display: block;
+    margin: auto;
+    border: 1px hsl(215, 32%, 27%) solid;
+}
+/************************************* Class Selectors *****************************/
+.container {
+    padding-top: 15px;
+    width: 320px;
+    margin: 140px auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+.container .nft {
+    position: relative;
+    width: 280px;
+    margin:  auto;
+    display: block;
+}
+.container .nft .nft-img {
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.container .nft div {
+    position: absolute;
+    top: 0;
+    background-color: hsl(178, 100%, 50%, 60%);
+    width: 100%;
+    height: calc(100% - 4px);
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+.container .nft div:hover {
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.container .nft div img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.content img {
+    margin-right: 5px;
+    vertical-align: -1px;
+}
+.bottom {
+    color:hsla(178, 100%, 50%, 0.5);
+}
+.side {
+    position: relative;
+    color:  hsl(215, 51%, 70%);
+    left: 80px;
+}
+.footer {
+    
+    
+}
+.avatar {
+    display: inline;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.up {
+    vertical-align: 10px;
+    font-weight: 300;
+}
+.name {
+    color: hsl(0, 0%, 100%);
+    vertical-align: 10px;
+    font-weight: 300;
+}
+.name:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (max-width:600px) {
+
+}

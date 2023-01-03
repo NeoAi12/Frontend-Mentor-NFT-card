@@ -24,11 +24,22 @@ p {
     padding-bottom: 15px;
     font-weight: 400;
 }
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
 hr {
     width: 270px;
     display: block;
     margin: auto;
     border: 1px hsl(215, 32%, 27%) solid;
+}
+footer {
+    font-size: 11px; 
+    text-align: center;
+}
+footer a { 
+    color: hsl(228, 45%, 44%); 
 }
 /************************************* Class Selectors *****************************/
 .container {
@@ -105,14 +116,4 @@ hr {
 .name:hover {
     cursor: pointer;
     color: hsl(178, 100%, 50%);
-}
-.attribution {
-    font-size: 11px; 
-    text-align: center;
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-@media (max-width:600px) {
-
 }
